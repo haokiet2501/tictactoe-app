@@ -109,12 +109,22 @@ body {
         height: 300px;
         width: 300px;
     }
+    
+    .game-winner {
+        padding: 15px;
+        margin-top: 10px;
+    }
 }
 
 @media screen and (min-width: 360px) {
     .game-board {
         height: 300px;
         width: 300px;
+    }
+    
+    .game-winner {
+        padding: 15px;
+        margin-top: 10px;
     }
 }
 
@@ -123,11 +133,21 @@ body {
         height: 300px;
         width: 300px;
     }
+    
+    .game-winner {
+        padding: 15px;
+        margin-top: 10px;
+    }
 }
 
 @media screen and (min-width: 475px) {
     .game-board {
         height: 400px;
         width: 400px;
+    }
+    
+    .game-winner {
+        padding: 15px;
+        margin-top: 10px;
     }
 }
