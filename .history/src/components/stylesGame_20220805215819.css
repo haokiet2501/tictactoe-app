@@ -1,0 +1,40 @@
+.game {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.game-board {
+    height: 400px;
+    width: 400px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.game-cell {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    font-weight: 700;
+    font-size: 80px;
+}
+
+.game-cell.is-x {
+    color: #2cccff;
+}
+
+.game-cell.is-o {
+    color: #FF6651;
+}
+
+.game-reset {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
